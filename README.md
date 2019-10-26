@@ -1,4 +1,4 @@
-# circular-slider
+# Circular Slider for React
 
 ### Basic usage
 
