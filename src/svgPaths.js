@@ -55,7 +55,7 @@ const arcPathWithRoundedEnds = opts => {
   if (startAngle % 360 === endAngle % 360 && startAngle !== endAngle) {
     // Drawing a full circle, slightly offset end angle
     // https://stackoverflow.com/questions/5737975/circle-drawing-with-svgs-arc-path
-    endAngle = endAngle - 0.001;
+    endAngle -= 0.001;
   }
   const largeArc = endAngle - startAngle >= 180;
   const outerRadius = innerRadius + thickness;
